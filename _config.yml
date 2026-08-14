@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Saumitra Dhere"
   avatar : "/assets/images/Field_Photo_Saumitra2.jpg"
-  bio    : "Graduate student interested in how environments shape behaviour, morphology, and physiology in lizards. FLAME University, Pune | Behaviour | Thermal & UV ecology | Physiology | Ecological Modelling "
+  bio    : "Graduate student interested in how environments shape behaviour, morphology, and physiology in lizards."
   links:
    # - label: "Website"
     #  icon: "fas fa-fw fa-link"
