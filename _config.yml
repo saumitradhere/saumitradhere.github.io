@@ -129,3 +129,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  # Custom CSS
+sass:
+  sass_dir: assets/css
+  style: compressed
