@@ -5,11 +5,7 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Gallery"
+    url: /gallery/
   - title: "CV"
     url: /cv/
-  # - title: "Teaching and Outreach"
-  #   url: /teaching-and-outreach/
-  # - title: "Fieldwork Gallery"
-  #   url: /fieldwork-gallery/
-  # - title: "Academic Resources"
-  #   url: /academic-resources/
