@@ -6,22 +6,29 @@ layout: single
 author_profile: false
 ---
 
-<div class="homepage">
+    <div class="homepage">
 
   <div class="homepage-hero">
     <img src="/assets/images/Field_Photo_Saumitra2.jpg"
          alt="Saumitra Dhere"
          class="homepage-hero-image">
-  </div>
+  
+    </div>
+    
+    </div>
 
-  <div class="homepage-intro">
+    <div class="homepage-welcome">
 
-    <h1>Saumitra Dhere</h1>
+    <h2>Hi, and thanks for visiting my website.</h2>
 
-    <p class="homepage-tagline">
-      I am an ecologist interested in understanding how environmental variation shapes multiple aspects of organismal biology.
+    <p>
+      I am Saumitra, a PhD student at FLAME University, Pune.
     </p>
 
+    <p>
+      My current research focuses on the Kashmir rock agama (<i>Laudakia tuberculata</i>), where I study how behavioural and physiological responses vary across environmental gradients in the Western Himalayas.
+    </p>
+    
     <p class="homepage-links">
       <a href="https://scholar.google.co.in/citations?user=CHeG3gkAAAAJ&hl=en">
         Google Scholar
@@ -40,24 +47,8 @@ author_profile: false
       </a>
     </p>
 
-  </div>
-
-  <div class="homepage-welcome">
-
-    <h2>Hi, and thanks for visiting my website.</h2>
-
-    <p>
-      I am Saumitra, a PhD student at FLAME University, Pune.
-    </p>
-
-    <p>
-      My current research focuses on the Kashmir rock agama (*Laudakia tuberculata*), where I study how behavioural and physiological responses vary across environmental gradients in the Western Himalayas.
-    </p>
-
     <p>
       <a href="/about/">More about me →</a>
     </p>
 
-  </div>
-
-</div>
+    </div>
