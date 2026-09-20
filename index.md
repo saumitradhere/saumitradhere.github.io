@@ -19,14 +19,7 @@ author_profile: false
     <h1>Saumitra Dhere</h1>
 
     <p class="homepage-tagline">
-      Graduate student interested in how environments shape behaviour, morphology, and physiology in lizards.
-    </p>
-
-    <p class="homepage-affiliation">
-      FLAME University, Pune &nbsp;|&nbsp;
-      Behavioural ecology &nbsp;|&nbsp;
-      Thermal physiology &nbsp;|&nbsp;
-      Ecological modelling
+      I am an ecologist interested in understanding how environmental variation shapes multiple aspects of organismal biology.
     </p>
 
     <p class="homepage-links">
@@ -55,19 +48,10 @@ author_profile: false
 
     <p>
       I am Saumitra, a PhD student at FLAME University, Pune.
-      I am a semi-professional dilly-dallier and also hold a
-      Master’s degree in Ecology from Pondicherry University.
-      While I have experience working on diverse taxa, my primary
-      interest lies in herpetofauna — kindly read this as being
-      obsessed with frogs, snakes and lizards.
     </p>
 
     <p>
-      My work broadly asks how environmental constraints influence
-      species persistence in changing ecosystems. I currently study
-      the behavioural and physiological responses of the Kashmir rock
-      agama (<em>Laudakia tuberculata</em>) across environmental
-      gradients in the Western Himalayas.
+      My current research focuses on the Kashmir rock agama (*Laudakia tuberculata*), where I study how behavioural and physiological responses vary across environmental gradients in the Western Himalayas.
     </p>
 
     <p>
