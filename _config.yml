@@ -20,7 +20,7 @@ description: >-
   physiology in lizards.
 
 minimal_mistakes_skin: "contrast"
-search: true
+search: false
 
 
 # ============================================================
