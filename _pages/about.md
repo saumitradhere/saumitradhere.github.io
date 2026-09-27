@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-<img src="/assets/images/about/Field_site_1.jpg"
+<img src="/assets/images/about/On_field_photo_Saumitra2.jpg"
      alt="Field site"
      class="about-hero-image">
 
