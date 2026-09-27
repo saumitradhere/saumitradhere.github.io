@@ -8,18 +8,46 @@ My research is broadly interested in how environmental conditions shape behaviou
 
 I work primarily with lizards, with my current research focusing on the Kashmir rock agama (*Laudakia tuberculata*) across environmental gradients in the Western Himalayas.
 
-## Thermal & UV Ecology
+<div class="research-themes">
 
-I am interested in how temperature and ultraviolet environments influence ectotherm behaviour and physiology, and how animals respond to variation in the physical environments available to them.
+<section class="research-theme">
 
-## Behaviour & Activity
+<h2>Thermal &amp; UV Ecology</h2>
 
+<p>
+I am interested in how ectotherms respond to variation in thermal and ultraviolet environments.
+</p>
+
+</section>
+
+<section class="research-theme">
+
+<h2>Behaviour &amp; Activity</h2>
+
+<p>
 I study how environmental conditions influence activity patterns and behaviour, including how animals allocate their time under different thermal and environmental conditions.
+</p>
 
-## Morphology & Physiology
+</section>
 
-I am interested in variation in morphology and physiological performance across environmental gradients, and in how these traits contribute to responses to environmental conditions.
+<section class="research-theme">
 
-## Environmental Change
+<h2>Morphology &amp; Physiology</h2>
 
-A broader goal of my work is to understand how environmental constraints shape species persistence in changing ecosystems, linking organismal responses with questions about ecological opportunity and risk.
+<p>
+I am interested in understanding variation in morphology and physiological performance across environmental gradients, and in how these traits contribute to responses to environmental conditions.
+</p>
+
+</section>
+
+<section class="research-theme">
+
+<h2>Environmental Change</h2>
+
+<p>
+A broader goal of my work is to understand how environmental constraints shape species persistence in changing ecosystems.
+</p>
+
+</section>
+
+</div>
