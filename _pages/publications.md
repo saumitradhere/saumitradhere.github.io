@@ -1,14 +1,12 @@
 ---
-
 permalink: /publications/
 title: "Publications"
 ---
 
 <ul class="sd-pubs">
 
-  <li class="sd-pub">
+<li class="sd-pub">
 
-```
 <h3 class="sd-pub__title">
   Tough Toad Ahead: ontogenetic variation in thermal tolerance defines life-stage vulnerability in <em>Duttaphrynus melanostictus</em> (Schneider, 1799)
 </h3>
@@ -26,13 +24,11 @@ title: "Publications"
     Read paper →
   </a>
 </div>
-```
 
-  </li>
+</li>
 
-  <li class="sd-pub">
+<li class="sd-pub">
 
-```
 <h3 class="sd-pub__title">
   How distinct are sleep sites from active sites across habitat types in lizards?
 </h3>
@@ -50,8 +46,7 @@ title: "Publications"
     Read paper →
   </a>
 </div>
-```
 
-  </li>
+</li>
 
 </ul>
