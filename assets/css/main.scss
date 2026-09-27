@@ -1,11 +1,12 @@
 ---
+
 ---
 
 @import "minimal-mistakes";
 
 /* ============================================================
 Saumitra Dhere — base visual theme
-Step 1: Typography + site-wide palette
+Step 2: Typography + palette + navigation
 ============================================================ */
 
 /* ============================================================
@@ -109,35 +110,98 @@ Navigation / masthead
 .masthead {
 background-color: var(--sd-ivory);
 border-bottom: 1px solid var(--sd-border);
+box-shadow: none;
+}
+
+.masthead__inner-wrap {
+background-color: transparent;
 }
 
 .greedy-nav {
 background: transparent;
+min-height: 70px;
 }
 
 .greedy-nav a {
-font-family: "Inter", sans-serif;
+font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 font-weight: 500;
 color: var(--sd-ink);
 border-bottom: none;
 letter-spacing: 0.02em;
+transition:
+color 0.2s ease,
+opacity 0.2s ease;
 }
+
+.greedy-nav a:hover {
+color: var(--sd-moss);
+opacity: 1;
+}
+
+/* ============================================================
+Site name
+============================================================ */
 
 .site-title a,
 .greedy-nav .site-title {
-font-family: "Fraunces", Georgia, serif;
+font-family: "Fraunces", Georgia, "Times New Roman", serif;
 font-weight: 600;
 color: var(--sd-ink);
 border-bottom: none;
+letter-spacing: -0.01em;
 }
 
-.greedy-nav a:hover,
 .site-title a:hover {
 color: var(--sd-moss);
 }
 
+/* ============================================================
+Navigation links
+============================================================ */
+
+.greedy-nav .visible-links {
+display: flex;
+align-items: center;
+}
+
+.greedy-nav .visible-links a {
+position: relative;
+padding-top: 0.4rem;
+padding-bottom: 0.4rem;
+}
+
+.greedy-nav .visible-links a::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+height: 1px;
+background-color: transparent;
+transform: scaleX(0);
+transform-origin: center;
+transition:
+transform 0.2s ease,
+background-color 0.2s ease;
+}
+
 .greedy-nav .visible-links a:hover::after {
-background: var(--sd-moss);
+background-color: var(--sd-moss);
+transform: scaleX(1);
+}
+
+/* ============================================================
+Mobile navigation button
+============================================================ */
+
+.greedy-nav__toggle {
+background-color: transparent;
+color: var(--sd-ink);
+border: none;
+}
+
+.greedy-nav__toggle:hover {
+color: var(--sd-moss);
 }
 
 /* ============================================================
@@ -171,5 +235,8 @@ padding-right: 1rem;
 font-size: 2rem;
 }
 
+.greedy-nav {
+min-height: 60px;
 }
 
+}
