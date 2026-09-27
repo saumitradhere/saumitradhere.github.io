@@ -6,7 +6,7 @@
 
 /* ============================================================
 Saumitra Dhere — base visual theme
-Step 3: Typography + palette + navigation + page layout
+Step 4: Typography + palette + navigation + layout + About
 ============================================================ */
 
 /* ============================================================
@@ -91,6 +91,8 @@ Main content width
 max-width: 1180px;
 margin-left: auto;
 margin-right: auto;
+padding-top: 2.5rem;
+padding-bottom: 4rem;
 }
 
 .page {
@@ -98,7 +100,7 @@ width: 100%;
 }
 
 .page__content {
-max-width: 920px;
+max-width: 820px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -205,25 +207,8 @@ color: var(--sd-moss);
 }
 
 /* ============================================================
-Page spacing & layout
+Page headings
 ============================================================ */
-
-/* Give internal pages a little more breathing room */
-
-#main {
-padding-top: 2.5rem;
-padding-bottom: 4rem;
-}
-
-/* Keep the actual reading column comfortable */
-
-.page__content {
-max-width: 820px;
-margin-left: auto;
-margin-right: auto;
-}
-
-/* Give page titles more breathing room */
 
 .page__title {
 font-size: clamp(2rem, 4vw, 2.7rem);
@@ -231,14 +216,6 @@ line-height: 1.15;
 margin-top: 0;
 margin-bottom: 2rem;
 }
-
-/* Improve paragraph rhythm */
-
-.page__content p {
-margin-bottom: 1.25rem;
-}
-
-/* Create clearer separation between sections */
 
 .page__content h2 {
 font-size: 1.55rem;
@@ -255,7 +232,13 @@ margin-top: 2.2rem;
 margin-bottom: 0.7rem;
 }
 
-/* Lists should breathe like the surrounding text */
+/* ============================================================
+Paragraphs and lists
+============================================================ */
+
+.page__content p {
+margin-bottom: 1.25rem;
+}
 
 .page__content ul,
 .page__content ol {
@@ -266,14 +249,14 @@ margin-bottom: 1.5rem;
 margin-bottom: 0.35rem;
 }
 
-/* Avoid excessive indentation on ordinary content */
+/* ============================================================
+General content elements
+============================================================ */
 
 .page__content blockquote {
 margin-left: 0;
 margin-right: 0;
 }
-
-/* Keep images from feeling cramped against text */
 
 .page__content img {
 margin-top: 0.75rem;
@@ -281,7 +264,34 @@ margin-bottom: 1.5rem;
 }
 
 /* ============================================================
-Page layout on larger screens
+About page
+============================================================ */
+
+.about-hero-image {
+display: block;
+width: 100%;
+max-width: 820px;
+height: auto;
+margin: 0 auto 2.5rem auto;
+border: 1px solid var(--sd-border);
+border-radius: 4px;
+}
+
+/* Give the opening paragraph a little more presence */
+
+.about-hero-image + p {
+font-size: 1.05rem;
+line-height: 1.85;
+}
+
+/* Slightly soften the visual weight of the remaining biography */
+
+.about-hero-image ~ p {
+color: var(--sd-ink);
+}
+
+/* ============================================================
+Larger screens
 ============================================================ */
 
 @media (min-width: 1024px) {
@@ -326,6 +336,10 @@ margin-top: 2.4rem;
 .page__content h3 {
 font-size: 1.2rem;
 margin-top: 1.8rem;
+}
+
+.about-hero-image {
+margin-bottom: 2rem;
 }
 
 .greedy-nav {
