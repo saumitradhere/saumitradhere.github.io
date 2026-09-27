@@ -396,6 +396,49 @@ margin-bottom: 2.5rem;
 }
 
 /* ============================================================
+Force main page content to centre
+============================================================ */
+
+@media (min-width: 1024px) {
+
+  #main {
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  .page__inner-wrap {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  .page__content {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+}
+
+/* ============================================================
 Larger screens - desktops
 ============================================================ */
 
