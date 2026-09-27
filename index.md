@@ -1,15 +1,7 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: false
 ---
----
-
-layout: single
-author_profile: false
----------------------
 
 <section class="sd-hero">
 
@@ -24,7 +16,7 @@ author_profile: false
 
 ```
 <div class="sd-eyebrow">
-  Ecophysiology · Behaviour · Herpetofauna 
+  Ecophysiology · Behaviour · Herpetofauna
 </div>
 
 <h1 class="sd-hero__title">
