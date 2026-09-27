@@ -8,6 +8,10 @@ My research is broadly interested in how environmental conditions shape behaviou
 
 I work primarily with lizards, with my current research focusing on the Kashmir rock agama (*Laudakia tuberculata*) across environmental gradients in the Western Himalayas.
 
+<img src="/assets/images/L_tub_1.jpg"
+  alt="Kashmir rock agama (Laudakia tuberculata)"
+  class="research-model-image">
+
 <div class="research-themes">
 
 <section class="research-theme">
@@ -51,3 +55,4 @@ A broader goal of my work is to understand how environmental constraints shape s
 </section>
 
 </div>
+
