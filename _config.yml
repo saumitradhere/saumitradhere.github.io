@@ -10,23 +10,26 @@
 
 
 # ============================================================
-# Site settings
+
+# Site
+
 # ============================================================
 
 title: "Saumitra Dhere"
 
 description: >-
-  Saumitra Dhere is an ecological physiologist studying how
-  thermal and UV environments shape behaviour, morphology and
-  physiology in lizards.
+Saumitra Dhere is an ecological physiologist studying how
+thermal and UV environments shape behaviour, morphology and
+physiology in lizards.
 
 minimal_mistakes_skin: "contrast"
 
 search: false
 
-
 # ============================================================
-# Build settings
+
+# Build
+
 # ============================================================
 
 markdown: kramdown
@@ -38,93 +41,95 @@ permalink: /:categories/:title/
 timezone: Asia/Kolkata
 
 include:
-  - _pages
 
+* _pages
 
 # ============================================================
+
 # Plugins
+
 # ============================================================
 
 plugins:
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-include-cache
 
+* jekyll-sitemap
+* jemoji
+* jekyll-include-cache
 
 # ============================================================
+
 # Author
+
 # ============================================================
 
 author:
-  name: "Saumitra Dhere"
+name: "Saumitra Dhere"
 
-  avatar: "/assets/images/Field_Photo_Saumitra2.jpg"
+avatar: "/assets/images/Field_Photo_Saumitra2.jpg"
 
-  bio: "Ecological physiologist studying how thermal and UV environments shape behaviour, morphology, and energy allocation in lizards."
+bio: "Ecological physiologist studying how thermal and UV environments shape behaviour, morphology, and energy allocation in lizards."
 
-  links:
-    - label: "Google Scholar"
-      icon: "ai ai-fw ai-google-scholar-square"
-      url: "https://scholar.google.co.in/citations?user=CHeG3gkAAAAJ&hl=en"
+links:
+- label: "Google Scholar"
+icon: "ai ai-fw ai-google-scholar-square"
+url: "https://scholar.google.co.in/citations?user=CHeG3gkAAAAJ&hl=en"
 
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/saumitr_a/"
+```
+- label: "Instagram"
+  icon: "fab fa-fw fa-instagram"
+  url: "https://www.instagram.com/saumitr_a/"
 
-    - label: "BEACON Lab"
-      icon: "fas fa-fw fa-flask"
-      url: "https://sites.google.com/view/batabyal-lab/home"
+- label: "BEACON Lab"
+  icon: "fas fa-fw fa-flask"
+  url: "https://sites.google.com/view/batabyal-lab/home"
 
-    - label: "ORCID"
-      icon: "ai ai-fw ai-orcid"
-      url: "https://orcid.org/0009-0007-0689-9319"
-
+- label: "ORCID"
+  icon: "ai ai-fw ai-orcid"
+  url: "https://orcid.org/0009-0007-0689-9319"
+```
 
 # ============================================================
+
 # Footer
+
 # ============================================================
 
 footer:
-  links:
-    - label: "Google Scholar"
-      icon: "ai ai-fw ai-google-scholar-square"
-      url: "https://scholar.google.co.in/citations?user=CHeG3gkAAAAJ&hl=en"
+links:
+- label: "Google Scholar"
+icon: "ai ai-fw ai-google-scholar-square"
+url: "https://scholar.google.co.in/citations?user=CHeG3gkAAAAJ&hl=en"
 
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/saumitr_a/"
+```
+- label: "Instagram"
+  icon: "fab fa-fw fa-instagram"
+  url: "https://www.instagram.com/saumitr_a/"
 
-    - label: "ORCID"
-      icon: "ai ai-fw ai-orcid"
-      url: "https://orcid.org/0009-0007-0689-9319"
-
+- label: "ORCID"
+  icon: "ai ai-fw ai-orcid"
+  url: "https://orcid.org/0009-0007-0689-9319"
+```
 
 # ============================================================
-# Defaults
+
+# Page defaults
+
 # ============================================================
 
 defaults:
 
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-
+* scope:
+  path: "_pages"
+  type: pages
+  values:
+  layout: single
+  author_profile: false
 
 # ============================================================
+
 # Feed
+
 # ============================================================
 
 atom_feed:
-  hide: true
-
-
-# ============================================================
-# Custom CSS
-# ============================================================
-
-sass:
-  sass_dir: assets/css
-  style: compressed
+hide: true
