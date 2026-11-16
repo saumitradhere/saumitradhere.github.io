@@ -49,4 +49,26 @@ title: "Publications"
 
 </li>
 
+<li class="sd-pub">
+
+<h3 class="sd-pub__title">
+  Can tropical agamid lizards physiologically tolerate the altered thermal mosaic of urban microhabitats?
+</h3>
+
+<div class="sd-pub__authors">
+  M. Razak, A. Ben, <em>S. Dhere</em> &amp; M. Thaker
+</div>
+
+<div class="sd-pub__venue">
+  Biotropica 58, 6
+</div>
+
+<div class="sd-pub__links">
+  <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/btp.70282">
+    Read paper →
+  </a>
+</div>
+
+</li>
+
 </ul>
